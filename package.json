@@ -1,0 +1,23 @@
+{
+  "name": "future4-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "surge ./src bola-de-fogo-f4.surge.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriqueguisasola/future4-cd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriqueguisasola/future4-cd/issues"
+  },
+  "homepage": "https://github.com/henriqueguisasola/future4-cd#readme",
+  "devDependencies": {
+    "surge": "^0.21.3"
+  }
+}
