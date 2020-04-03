@@ -24,6 +24,9 @@ jobs:
     - name: Instalar as dependencias
       run: yarn install
 
+    - name: Build do projeto
+      run: yarn build
+
     # Runs a set of commands using the runners shell
     - name: Rodar o deploy
       run: yarn run deploy --token ${{ secrets.SURGE_TOKEN }}
